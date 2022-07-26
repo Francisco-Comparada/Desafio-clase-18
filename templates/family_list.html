@@ -1,0 +1,9 @@
+{% for person in persons %}
+    <h1 style='font-family:Arial;'>-------------------------------------------------------------</h1>
+    <h2 style='font-family:Arial;'>Nombre completo: {{person.last_name}}, {{person.name}}</h2>
+    <h3 style='font-family:Arial;'>DNI n°: {{person.dni}}</h3>
+    <h3 style='font-family:Arial;'>Edad: {{person.age}}</h3>
+    <h3 style='font-family:Arial;'>Fecha de nacimiento: {{person.birthday_date}}</h3>
+  
+    
+{% endfor %}
