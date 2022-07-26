@@ -6,7 +6,7 @@ from Familia.views import Agregar_familiar, list_family
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inicio/',Inicio,name='Inisscisso'),
-    path('agregar_familia/',Agregar_familiar),
-    path('lista_familia/',list_family)
+    path('inicio/',Inicio,name='Pagina de inicio'),
+    path('agregar_familia/',Agregar_familiar,name='Pagina para agregar familiares'),
+    path('lista_familia/',list_family, name='Pagina lista familiares')
 ]

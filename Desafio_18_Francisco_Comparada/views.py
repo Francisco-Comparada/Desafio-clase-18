@@ -4,7 +4,7 @@ from django.shortcuts import render
 from datetime import datetime
 
 def Inicio (request):
-    today= datetime.now().date
+    today= datetime.now()
     context = {
         'name':' Francisco',
         'last_name':' Comparada',
